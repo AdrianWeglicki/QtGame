@@ -7,6 +7,7 @@
 class Player: public QGraphicsPixmapItem{
 public:
     Player();   
+    ~Player();
     void keyPressEvent(QKeyEvent *event);
 };
 

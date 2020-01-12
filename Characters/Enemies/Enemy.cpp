@@ -57,3 +57,4 @@ void Enemy::move(){
         delete this;
     }
 }
+Enemy::~Enemy(){}

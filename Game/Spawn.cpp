@@ -22,3 +22,5 @@ void Spawn::startSpawnEnemy()
     scene()->addItem(enemy);
 }
 
+Spawn::~Spawn(){}
+

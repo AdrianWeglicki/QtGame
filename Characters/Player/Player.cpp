@@ -38,5 +38,6 @@ void Player::keyPressEvent(QKeyEvent *event)
         }
     }
 }
+Player::~Player(){}
 
 

@@ -10,6 +10,7 @@ class Enemy: public QObject,public QGraphicsPixmapItem{
 
 public:
     Enemy(QPixmap &QPixmapImage);
+    ~Enemy();
 
 public slots:
         void move();

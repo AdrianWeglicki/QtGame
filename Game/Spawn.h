@@ -8,6 +8,7 @@ class Spawn: public QObject, public QGraphicsPixmapItem{
     Q_OBJECT
 public:
     Spawn();
+    ~Spawn();
 public slots:
     void startSpawnEnemyMeteor();
     void startSpawnEnemy();
